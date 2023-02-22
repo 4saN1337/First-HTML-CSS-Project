@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./resources/css/index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>HTML Forms References</h1>
+    </header>
+    <div class="tags">
+      <h2>HTML Form Elements</h2>
+      <table id="table1">
+        <thead>
+          <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="d0">
+            <td><span class="code">&#60;input&#62;</span></td>
+            <td class="name">input</td>
+            <td>Defines an input control</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;label&#62;</span></td>
+            <td>label</td>
+            <td>Defines a label for an &#60;input&#62; element</td>
+          </tr>
+          <tr class="d1">
+            <td><span class="code">&#60;select&#62;</span></td>
+            <td class="name">select</td>
+            <td>Defines a drop-down list</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;textarea&#62;</span></td>
+            <td class="name">textarea</td>
+            <td>Defines a multiline input control (text area)</td>
+          </tr>
+          <tr class="d2">
+            <td><span class="code">&#60;button&#62;</span></td>
+            <td class="name">button</td>
+            <td>Defines a clickable button</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;fieldset&#62;</span></td>
+            <td>fieldset</td>
+            <td>Groups related elements in a form</td>
+          </tr>
+          <tr class="d3">
+            <td><span class="code">&#60;legend&#62;</span></td>
+            <td class="name">legend</td>
+            <td>Defines a caption for a &#60;fieldset&#62; element</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;datalist&#62;</span></td>
+            <td class="name">datalist</td>
+            <td>Specifies a list of pre-defined options for input controls</td>
+          </tr>
+          <tr class="d4">
+            <td><span class="code">&#60;output&#62;</span></td>
+            <td>output</td>
+            <td>Defines the result of a calculation</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;option&#62;</span></td>
+            <td class="name">option</td>
+            <td>Defines an option in a drop-down list</td>
+          </tr>
+          <tr class="d5">
+            <td id="edit0"><span class="code">&#60;optgroup&#62;</span></td>
+            <td class="name" id="edit1">optgroup</td>
+            <td id="edit2">Defines a group of related options in a drop-down list</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="attributes">
+      <h2>HTML Input Attributes</h2>
+      <table id="table2">
+        <thead>
+          <tr>
+            <th>Attribute</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="d6">
+            <td><span class="code">value</span></td>
+            <td>The input value attribute specifies an initial value for an input field
+            </td>
+          </tr>
+          <tr>
+            <td><span class="code">readonly</span></td>
+            <td>The input readonly attribute specifies that an input field is read-only. A read-only input field cannot be modified</td>
+          </tr>
+          <tr class="d7">
+            <td><span class="code">disabled</span></td>
+            <td>The input disabled attribute specifies that an input field should be disabled. A disabled input field is unusable and un-clickable.</td>
+          </tr>
+          <tr>
+            <td><span class="code">size</span></td>
+            <td>The input size attribute specifies the visible width, in characters, of an input field.</td>
+          </tr>
+          <tr class="d8">
+            <td><span class="code">maxlength</span></td>
+            <td>The input maxlength attribute specifies the maximum number of characters allowed in an input field.</td>
+          </tr>
+          <tr>
+            <td><span class="code">min</span></td>
+            <td>The input min attribute specify the minimum values for an input field.</td>
+          </tr>
+          <tr class="d9">
+            <td><span class="code">max</span></td>
+            <td>The input max attributes specify the maximum values for an input field.</td>
+          </tr>
+          <tr>
+            <td><span class="code">multiple</span></td>
+            <td>The input multiple attribute specifies that the user is allowed to enter more than one value in an input field. The multiple attribute works with the following input types: email, and file.</td>
+          </tr>
+          <tr class="d10">
+            <td><span class="code">pattern</span></td>
+            <td>The input pattern attribute specifies a regular expression that the input field's value is checked against, when the form is submitted. The pattern attribute works with the following input types: text, date, search, url, tel, email, and password.</td>
+          </tr>
+          <tr>
+            <td><span class="code">placeholder</span></td>
+            <td>The input placeholder attribute specifies a short hint that describes the expected value of an input field (a sample value or a short description of the expected format). The short hint is displayed in the input field before the user enters a value. The placeholder attribute works with the following input types: text, search, url, tel, email, and password.</td>
+          </tr>
+          <tr class="d12">
+            <td><span class="code">required</span></td>
+            <td>The input required attribute specifies that an input field must be filled out before submitting the form. The required attribute works with the following input types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.</td>
+          </tr>
+          <tr>
+            <td><span class="code">step</span></td>
+            <td>The input step attribute specifies the legal number intervals for an input field. This attribute can be used together with the max and min attributes to create a range of legal values.</td>
+          </tr>
+          <tr class="d13">
+            <td><span class="code">autofocus</span></td>
+            <td>The input autofocus attribute specifies that an input field should automatically get focus when the page loads.</td>
+          </tr>
+          <tr>
+            <td><span class="code">height&width</span></td>
+            <td>The input height and width attributes specify the height and width of an &#60;input type="image"&#62; element.</td>
+          </tr>
+          <tr class="d14">
+            <td><span class="code">list</span></td>
+            <td>The input list attribute refers to a &#60;datalist&#62; element that contains pre-defined options for an &#60;input&#62; element.</td>
+          </tr>
+          <tr>
+            <td id="edit3"><span class="code">autocomplete</span></td>
+            <td id="edit4">The input autocomplete attribute specifies whether a form or an input field should have autocomplete on or off Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="input_types">
+      <h2>HTML Input Types</h2>
+      <table id="table3">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="d15">
+            <td><span class="code">&#60;input type="button"&#62;</span></td>
+            <td>Defines a button.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;input type="checkbox"t&#62;</span></td>
+            <td>Checkboxes let a user select ZERO or MORE options of a limited number of choices.</td>
+          </tr>
+          <tr class="d16">
+            <td><span class="code">&#60;input type="color"&#62;</span></td>
+            <td>Is used for input fields that should contain a color.Depending on browser support, a color picker can show up in the input field.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;input type="date"&#62;</span></td>
+            <td>Is used for input fields that should contain a date.Depending on browser support, a date picker can show up in the input field.</td>
+          </tr>
+          <tr class="d17">
+            <td><span class="code">&#60;input type="datetime-local"&#62;</span></td>
+            <td>Specifies a date and time input field, with no time zone.Depending on browser support, a date picker can show up in the input field.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;input type="email"&#62;</span></td>
+            <td>Is used for input fields that should contain an e-mail address. Depending on browser support, the e-mail address can be automatically validated when submitted.</td>
+          </tr>
+          <tr class="d18">
+            <td><span class="code">&#60;input type="file"&#62;</span></td>
+            <td>Defines a file-select field and a "Browse" button for file uploads.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;input type="hidden"&#62;</span></td>
+            <td>Defines a hidden input field (not visible to a user).</td>
+          </tr>
+          <tr class="d19">
+            <td><span class="code">&#60;input type="image"&#62;</span></td>
+            <td>Defines an image as a submit button. The path to the image is specified in the src attribute.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;input type="month"&#62;</span></td>
+            <td>Allows the user to select a month and year. Depending on browser support, a date picker can show up in the input field.</td>
+          </tr>
+          <tr class="d20">
+            <td><span class="code">&#60;input type="number"&#62;</span></td>
+            <td>Defines a numeric input field. You can also set restrictions on what numbers are accepted.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;input type="password"&#62;</span></td>
+            <td>Defines a password field.</td>
+          </tr>
+          <tr class="d21">
+            <td><span class="code">&#60;input type="radio"&#62;</span></td>
+            <td>Defines a radio button. Radio buttons let a user select ONLY ONE of a limited number of choices.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;input type="range"&#62;</span></td>
+            <td>Defines a control for entering a number whose exact value is not important (like a slider control).</td>
+          </tr>
+          <tr class="d22">
+            <td><span class="code">&#60;input type="reset"&#62;</span></td>
+            <td>Defines a reset button that will reset all form values to their default values.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;input type="search"&#62;</span></td>
+            <td>Is used for search fields (a search field behaves like a regular text field).</td>
+          </tr>
+          <tr class="d23">
+            <td><span class="code">&#60;input type="submit"t&#62;</span></td>
+            <td>Defines a button for submitting form data to a form-handler. The form-handler is typically a server page with a script for processing input data.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;input type="tel"t&#62;</span></td>
+            <td>Is used for input fields that should contain a telephone number.</td>
+          </tr>
+          <tr class="d24">
+            <td><span class="code">&#60;input type="text"&#62;</span></td>
+            <td>Defines a single-line text input field.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&#60;input type="time"&#62;</span></td>
+            <td>Allows the user to select a time (no time zone). Depending on browser support, a time picker can show up in the input field.</td>
+          </tr>
+          <tr class="d25">
+            <td><span class="code">&#60;input type="url"&#62;</span></td>
+            <td>Is used for input fields that should contain a URL address. Depending on browser support, the url field can be automatically validated when submitted.</td>
+          </tr>
+          <tr>
+            <td id="edit5"><span class="code">&#60;input type="week"&#62;</span></td>
+            <td id="edit6">Allows the user to select a week and year. Depending on browser support, a date picker can show up in the input field.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
