@@ -23,8 +23,8 @@
 }
 body {
   min-height: 100vh;
- background: url(./images/vecteezy_abstract-blue-background-simple-design-for-your-website_6852804.jpg)center / cover;
-  background-size: cover;
+  background-color:rgb(73, 4, 138);
+  
 }
 h1 {
   font-family: Noto Sans, Arial, Helvetica, sans-serif;
